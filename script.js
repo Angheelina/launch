@@ -30,7 +30,7 @@ function isFuelLevelValid(){
     let fuelLevelEl = document.querySelector("input[name=fuelLevel]");
     let valid = isNumeric(fuelLevelEl.value)
     if (!valid) {
-        alert("Fuel Level is invalid.");
+        alert("Fuel Level is invalid.  ");
     }
 
     return valid;
